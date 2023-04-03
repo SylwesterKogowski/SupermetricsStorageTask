@@ -1,0 +1,23 @@
+{
+    "name": "sylwester_kogowski/supermetrics_storage_task",
+    "description": "Data storage task for Supermetrics",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^10.0",
+        "ext-mysqli": "*",
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "StorageTask\\": "src/",
+            "StorageTask\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sylwester Kogowski",
+            "email": "sylwester.kogowski@outlook.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
