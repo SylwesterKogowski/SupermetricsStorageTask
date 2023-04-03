@@ -12,3 +12,5 @@ This task assumes that the table name in mysql is identical to the model name (u
 while column names are lower case.
 
 Tests are made in PHPUnit in the tests folder.
+
+Example of usage is in file src/run_this.php
